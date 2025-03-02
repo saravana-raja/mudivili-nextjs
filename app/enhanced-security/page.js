@@ -8,7 +8,7 @@ export default function EnhancedSecurity() {
         <section id="enhanced-security" className="py-20 text-white bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 leading-none pb-2">
                         Enhanced Security with Edge Computing
                     </h1>
                     <p className="mt-4 text-xl text-gray-300">
@@ -73,7 +73,7 @@ export default function EnhancedSecurity() {
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="relative overflow-hidden rounded-xl shadow-lg">
                         <Image
-                            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="/images/enhanced-security.avif"
                             alt="Edge Security"
                             width={800}
                             height={600}

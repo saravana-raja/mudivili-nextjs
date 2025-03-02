@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Mudivili Technologies',
-  description: 'Powerful edge computing solutions for modern businesses',
+  description: 'Powerful edge computing and IoT solutions for modern businesses',
 };
 
 export default function RootLayout({ children }) {

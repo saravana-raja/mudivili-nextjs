@@ -8,7 +8,7 @@ export default function Careers() {
 
                 {/* Main Heading */}
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                    <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-none pb-2">
                         Join Mudivili Technologies
                     </h1>
                     <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
@@ -56,14 +56,7 @@ export default function Careers() {
                         >
                             <Mail className="w-5 h-5 mr-2" /> Apply via Email
                         </a>
-                        <a
-                            href="https://wa.me/917305087414"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-                        >
-                            <MessageCircle className="w-5 h-5 mr-2" /> Contact via WhatsApp
-                        </a>
+                       
                     </div>
                 </div>
 

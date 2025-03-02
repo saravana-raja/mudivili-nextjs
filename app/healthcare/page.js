@@ -6,7 +6,7 @@ export default function HealthCare() {
     <section id="healthcare" className="py-20 text-white bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+          <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-none pb-2">
             Remote Healthcare Solutions
           </h1>
           <p className="mt-4 text-xl text-gray-300 max-w-2xl mx-auto">
@@ -17,7 +17,7 @@ export default function HealthCare() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative overflow-hidden rounded-xl shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1630531210873-2dcfc5a541ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fHw%3D"
+              src="images/healthcare.avif"
               alt="Healthcare"
               width={800}
               height={600}

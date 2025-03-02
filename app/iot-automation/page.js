@@ -9,7 +9,7 @@ export default function IotAutomation() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-                        IoT Automation for Smart Devices
+                        Mudivili Automation for Smart Devices
                     </h1>
                     <p className="mt-4 text-xl text-gray-400">
                         Enhance your operations with seamless IoT automation solutions for smart devices.
@@ -18,19 +18,19 @@ export default function IotAutomation() {
 
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 mb-4">
-                        What is IoT Automation?
+                        What is Mudivili Automation?
                     </h2>
                     <p className="text-gray-300 text-lg">
-                        IoT automation involves using interconnected devices to automate and optimize various processes. By leveraging IoT technology, businesses can achieve real-time monitoring, control, and automation of their operations.
+                    Mudivili automation involves using interconnected devices to automate and optimize various processes. By leveraging IoT technology, businesses can achieve real-time monitoring, control, and automation of their operations.
                     </p>
                 </div>
 
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 mb-4">
-                        Why Use IoT Automation?
+                        Why Use Mudivili Automation?
                     </h2>
                     <p className="text-gray-300 text-lg">
-                        IoT automation is essential for businesses aiming to improve efficiency and connectivity. Here’s why it's beneficial:
+                    Mudivili automation is essential for businesses aiming to improve efficiency and connectivity. Here’s why it's beneficial:
                     </p>
                     <ul className="list-disc list-inside text-gray-400 space-y-2 mt-6 text-lg">
                         <li>Real-time monitoring and control of devices</li>
@@ -43,7 +43,7 @@ export default function IotAutomation() {
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="relative overflow-hidden rounded-xl shadow-lg">
                         <Image
-                            src="https://images.unsplash.com/photo-1553341640-9397992456f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="images/iot-automation.avif"
                             alt="IoT Automation"
                             width={600}
                             height={400}
@@ -52,10 +52,10 @@ export default function IotAutomation() {
                     </div>
                     <div className="flex flex-col justify-center">
                         <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 mb-4">
-                            How IoT Automation Can Transform Your Business
+                            How Mudivili Automation Can Transform Your Business
                         </h2>
                         <p className="text-gray-300 mb-6">
-                            With IoT automation, businesses can optimize real-time monitoring, improve operational efficiency, and enhance connectivity. Here’s how it works:
+                            With Mudivili automation, businesses can optimize real-time monitoring, improve operational efficiency, and enhance connectivity. Here’s how it works:
                         </p>
                         <ul className="list-disc list-inside text-gray-400 space-y-2">
                             <li>Real-time monitoring for immediate insights and actions</li>

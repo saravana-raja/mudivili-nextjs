@@ -10,7 +10,7 @@ export default function OptimizedPerformance() {
         <section id="optimized-performance" className="py-20 text-white bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 leading-none pb-2">
                         Optimized Performance with Edge Computing
                     </h1>
                     <p className="mt-4 text-xl text-gray-400">
@@ -72,7 +72,7 @@ export default function OptimizedPerformance() {
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="relative overflow-hidden rounded-xl shadow-lg">
                         <Image
-                            src="https://img.freepik.com/free-vector/isometric-typographic-message-blue-night-shades_52683-34730.jpg"
+                            src="/images/optimized-performance.avif"
                             alt="Edge Performance"
                             width={500}
                             height={500}

@@ -8,9 +8,10 @@ export default function AboutUs() {
 
                 {/* Main Heading */}
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                        About Mudivili Technologies
-                    </h1>
+                <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-none pb-2">
+                 About Mudivili Technologies
+                </h1>
+
                     <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
                         Transforming industries with innovative IoT and edge computing solutions.
                     </p>
@@ -21,7 +22,7 @@ export default function AboutUs() {
                     <div className="p-6 bg-gray-800 rounded-xl shadow-md hover:bg-gray-700 transition-colors">
                         <h2 className="text-2xl font-semibold text-blue-400 mb-3">Our Mission</h2>
                         <p className="text-gray-300">
-                            Building secure, scalable, and intelligent systems that bridge technology with real-world applications.
+                        Empowering businesses with edge computing solutions for faster, smarter decisions. We innovate at the intersection of IoT and edge computing, ensuring real-time efficiency, security, and scalability.
                         </p>
                     </div>
                     <div className="p-6 bg-gray-800 rounded-xl shadow-md hover:bg-gray-700 transition-colors">

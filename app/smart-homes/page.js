@@ -8,7 +8,7 @@ export default function SmartHomes() {
         <section id="smart-homes" className="py-20 text-white bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                    <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-none pb-2">
                         Smart Homes Solutions: The Future of Living
                     </h1>
                     <p className="mt-4 text-xl text-gray-300 max-w-2xl mx-auto">
@@ -19,7 +19,7 @@ export default function SmartHomes() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="relative overflow-hidden rounded-xl shadow-lg">
                         <img
-                            src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80"
+                            src="/images/smart-home.avif"
                             alt="Smart Home"
                             className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300"
                         />

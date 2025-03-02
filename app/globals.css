@@ -17,3 +17,16 @@
     @apply bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
   }
 }
+
+@font-face {
+  font-family: "WestgateBold";
+  src: url("/fonts/Westgate-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.company-name {
+  font-family: "WestgateBold", sans-serif;
+  font-weight: bold;
+}
+

@@ -1,6 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { Mail, MessageCircle } from "lucide-react";
+import emailjs from "emailjs-com";
+
+const EMAILJS_SERVICE_ID = "service_aljvngn";
+const EMAILJS_TEMPLATE_ID = "template_tgz96b9";
+const EMAILJS_PUBLIC_KEY = "fMymOs7D0YXgwjXWS";
 
 export default function Page() {
   return (
@@ -24,6 +30,14 @@ export default function Page() {
               title="Visit Us"
               content={`D10, Shashti Avenue, Erikkarai Street, Vandalur\nChennai – 600048\nTamil Nadu, India`}
             />
+            <a
+              href="https://wa.me/917305087414"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+            >
+              <MessageCircle className="w-5 h-5 mr-2" /> Contact via WhatsApp
+            </a>
           </div>
 
           <ContactForm />
@@ -35,7 +49,7 @@ export default function Page() {
 
 // Contact Information Component
 function ContactInfo({ Icon, title, content }) {
-  const IconComponent = require("lucide-react")[Icon]; // Dynamically import Lucide icons
+  const IconComponent = require("lucide-react")[Icon];
 
   return (
     <div className="flex items-start space-x-4">
@@ -50,37 +64,30 @@ function ContactInfo({ Icon, title, content }) {
 
 // Contact Form Component
 function ContactForm() {
-  const [status, setStatus] = useState(""); // Manage submission status
+  const [status, setStatus] = useState("");
 
   const handleSubmit = async (event) => {
-    event.preventDefault(); // Prevent page reload
+    event.preventDefault();
 
-    const formData = new FormData(event.target);
-    
-    try {
-      const response = await fetch("https://formspree.io/f/mzzdndog", {
-        method: "POST",
-        body: formData,
-        headers: { Accept: "application/json" },
-      });
-
-      if (response.ok) {
+    emailjs
+      .sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, event.target, EMAILJS_PUBLIC_KEY)
+      .then(() => {
         setStatus("success");
-        event.target.reset(); // Clear form
-      } else {
+        event.target.reset();
+      })
+      .catch(() => {
         setStatus("error");
-      }
-    } catch (error) {
-      setStatus("error");
-    }
+      });
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      <InputField type="text" name="company" placeholder="Company Name" />
       <InputField type="text" name="name" placeholder="Your Name" />
       <InputField type="email" name="email" placeholder="Your Email" />
+      <InputField type="text" name="phone" placeholder="Your Contact Number" />
       <TextAreaField name="message" placeholder="Your Message" />
-      
+
       <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors">
         Send Message
       </button>

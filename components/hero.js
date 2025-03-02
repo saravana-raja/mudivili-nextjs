@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/10 via-black to-purple-900/10" />
         <Image
-          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80"
+          src="/images/hero.avif"
           layout="fill"
           objectFit="cover"
           alt="Background"
@@ -19,8 +19,8 @@ export default function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="space-y-8">
-          <div className="flex items-center space-x-4">
-            <h1 className="text-5xl md:text-7xl font-bold">
+        <div className="flex justify-center items-center ">
+        <h1 className="text-4xl font-bold text-center">
               <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
                 Our Mission
               </span>
@@ -28,12 +28,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl">
-            To empower businesses and industries with edge computing solutions
-            that deliver faster, smarter, and more efficient decision-making. We
-            are committed to driving innovation at the intersection of
-            artificial intelligence, IoT, and edge computing, enabling seamless,
-            real-time experiences while ensuring security, scalability, and
-            reliability.
+          Empowering businesses with edge computing solutions for faster, smarter decisions. We innovate at the intersection of IoT and edge computing, ensuring real-time efficiency, security, and scalability.
           </p>
 
           <div className="flex flex-wrap gap-4">

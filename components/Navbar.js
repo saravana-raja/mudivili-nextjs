@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation';
 import { Cpu, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import Image from "next/image";
+
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -33,10 +35,14 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Cpu className="h-8 w-8 text-blue-500" />
-            <span className="font-bold text-xl bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              Mudivili Technologies
-            </span>
+          <Image src="/images/logo.png" alt="Company Logo" width={40} height={40} />
+          <span className="company-name font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="text-4xl text-[#f78c0c]">M</span>
+  <span className="text-2xl text-[#f78c0c]">udivili</span>
+  <span className="text-4xl text-[#2a66d2]"> T</span>
+  <span className="text-2xl text-[#2a66d2]">echnologies</span>
+</span>
+
           </Link>
 
           {/* Desktop Navigation */}
@@ -81,7 +87,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Button className="w-full">Get Started</Button>
           </nav>
         </div>
       )}

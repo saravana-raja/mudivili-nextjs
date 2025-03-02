@@ -11,7 +11,7 @@ export default function EdgeComputing() {
     <section id="edge-computing" className="py-20 text-white bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+          <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-none pb-2">
             Edge Computing
           </h1>
           <p className="mt-4 text-xl text-gray-300 max-w-2xl mx-auto">
@@ -22,7 +22,7 @@ export default function EdgeComputing() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative overflow-hidden rounded-xl shadow-lg">
             <Image
-              src="https://plus.unsplash.com/premium_photo-1682464651356-3c6780eff00c?q=80&w=1974&auto=format&fit=crop"
+              src="/images/edge-computing.jpg"
               width={700}
               height={500}
               alt="Edge Computing"

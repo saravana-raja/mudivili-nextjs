@@ -8,24 +8,22 @@ const solutions = [
     icon: <Home className="h-12 w-12 text-blue-500" />,
     title: "Smart Home Solutions",
     description: "Safe and secure smart home solutions powered by AI",
-    image:
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80",
+    image: "/images/smart-home.avif", // Updated to local image
     href: "/smart-homes",
-  },
+  }
+  ,
   {
     icon: <Factory className="h-12 w-12 text-blue-500" />,
     title: "Industrial Automation",
     description: "Smart manufacturing solutions for the future",
-    image:
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/industrial-automation.avif", // Updated to local image
     href: "/industry-4.0",
   },
   {
     icon: <Building2 className="h-12 w-12 text-blue-500" />,
     title: "Remote HealthCare Solutions",
     description: "Innovative solutions for modern healthcare facilities",
-    image:
-      "https://images.unsplash.com/photo-1630531210873-2dcfc5a541ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/healthcare.avif", // Updated to local image
     href: "/healthcare",
   },
 ];
